@@ -1,0 +1,318 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+html, body {
+	background: #BAADFF;
+}
+
+
+.banner {
+	position: relative;
+ 	background: #FFFFFF;
+ 	color: #000000;
+ 	border-bottom: 1px solid #000000;
+ 	padding: 10px;
+ 	padding-bottom: #BAADFF;
+ 	font-size: 15px;
+ 	white-space: nowrap;
+ 	display: inline-block;
+ 	animation: marquee 10s infinite linear;
+
+}
+
+.background {
+	 background-image: url(flowers.jpg);
+    background-position: center top;
+    background-repeat:no-repeat;
+    background-size: 100%;
+
+}
+
+
+#navbar ul {
+	list-style-type: none;
+	text-align: center;
+	background: #FFFFFF;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+
+	
+}
+
+#navbar li {
+	display: inline-block;
+	color: #29BF12;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 20px;
+	font-family: 'Vollkorn', serif;
+	padding: .5em 1em;
+}
+
+
+
+#navbar a:visited {
+	text-decoration: none;
+}
+
+
+
+
+h1 {
+	color: #074A07;
+	background-color: #FFFFFF;
+	border: 2px solid #2BCA28; 
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 6%;
+	margin-bottom: 3%;
+	padding: 25px;
+	text-align: center;
+	font-family: 'Italiana', serif;
+	font-size: 60px;
+	box-shadow: 1px 10px 10px grey;
+	text-align: center;
+}
+
+.article {
+	background-color: #EFECFF;
+	padding-bottom: 20%;
+	color: #074A07;
+}
+
+.mini-section {
+	font-family: 'Jost', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.presentation {
+	background-color: #E5F4DC;
+	padding-bottom: 20%;
+}
+
+
+.presentation-title {
+	color: #683BE3;
+	text-align: center;
+	font-family: 'Jost', sans-serif;
+	font-size: 63px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 7%;
+	padding-top: 10%;
+}
+
+.presentation-text {
+	color: #490910;
+	border: ;
+}
+
+.bio {
+	background: #EBF6FF;
+
+}
+
+.background-image {
+
+	height: 100vh;
+	background-image: url("photos/flowers.jpg");
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover; 
+}
+
+
+.about-title {
+	color: #FF8800;
+	text-align: center;
+	font-family: 'Jost', sans-serif;
+	font-size: 63px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 7%;
+	padding-top: 10%;
+
+}
+
+
+.scroll {
+	color: #074A07;
+	font-size: 23px;
+	font-family: 'Vollkorn', serif;
+	text-align: center;
+	background: #FFFFFF;
+
+	border-radius: 40px;
+  	padding-bottom: 20px; 
+  	width: 230px;
+  	height: 30px;
+
+  	border: 2px solid #29BF12;
+  	box-shadow: 1px 10px 10px grey;
+
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 10%;
+
+
+}
+
+.scroll a {
+	color: #074A07;
+	text-decoration: none;
+	text-align: center;
+
+}
+
+.scroll a:hover {
+	color: BLUE;
+	text-decoration: none;
+
+}
+
+.scroll a:visited {
+	text-decoration: none;
+	color: #074A07;
+}
+
+
+h2 {
+	color: #29BF12;
+	text-align: center;
+	font-family: 'Jost', sans-serif;
+	font-size: 63px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 7%;
+	padding-top: 10%;
+
+}
+
+h3 {
+	text-align: center;
+	font-family: 'Gilda Display', serif;
+	font-size: 20px;
+	color: #074A07;
+	line-height: ;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 3%;
+}
+
+
+h4 {
+	text-align: center;
+	font-family: 'Jost', sans-serif;
+	font-size: 15px;
+	color: #2C363F;
+
+}
+
+.date {
+	margin-top: 0%;
+	margin-bottom: 3%;
+}
+
+h5 {
+	text-align: center;
+	text-decoration: none;
+	color: #2C363F;
+	margin: 3%;
+}
+
+
+h5 a:visited {
+	text-decoration: none;
+	color: #2C363F;
+}
+
+
+
+p {
+	text-align: left;
+	font-family: 'Gilda Display', serif;
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 20px;
+	line-height: 2.5em;
+	margin-top: 2em;
+  	margin-bottom: 2em;
+
+}
+
+
+.indent {
+	margin-left: 20%;
+}
+
+
+blockquote {
+  display: block;
+  margin-top: 1em;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: 'Jost', sans-serif;
+  color: #074A07;
+  text-align: center;
+  font-size: 40px;
+}
+
+.blockquote-name {
+	text-align: center;
+	font-family: 'Jost', sans-serif;
+	color: #074A07;
+	font-size: 20px;
+	margin-bottom: 1%;
+}
+
+.about-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+iframe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+
+.photo-two {
+	margin-left: 20%;
+
+}
+
+
+.founders-image {
+	height: 100vh;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tinted {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.infographic {
+  display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+
